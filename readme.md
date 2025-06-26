@@ -22,3 +22,8 @@ gcmsg "Message"
 ```
 git push
 ```
+5. If you want to forcefully revert changes to the version commited on github, run the following.
+
+```
+git reset --hard origin/main
+```
