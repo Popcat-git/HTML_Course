@@ -1,0 +1,17 @@
+body {
+    margin:0;
+}
+.red {
+    background: rgb(213, 0, 0);
+    height: 100px;
+}
+.blue {
+    background: rgb(0, 0, 149);
+    height: 70px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.green {
+    background: rgb(4, 127, 0);
+    height: 100px;
+}
