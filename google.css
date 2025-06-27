@@ -1,9 +1,16 @@
-img {
-    display: block;
-    width: 300px;
+.main {
     margin-top: 100px;
 }
-input {
+
+.button {
+
+}
+
+.logo-img {
+    display: block;
+    width: 300px;
+}
+.Search {
     display: block;
     width: 400px;
 }
