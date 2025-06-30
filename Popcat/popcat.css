@@ -1,0 +1,12 @@
+body {
+    margin: 20px;
+}
+.popcat {
+    width: 150px;
+}
+
+.card {
+    padding: 20px;
+    border:dotted 1px blue ;
+    display: flex;
+}
