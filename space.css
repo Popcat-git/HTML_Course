@@ -1,8 +1,12 @@
+@font-face {
+    src: url("Recharge\ Bd.otf");
+    font-family: Transformers;
+}
+
 body {
-    color: white;
-    background-image: url("https://images.unsplash.com/photo-1543722530-d2c3201371e7?q=80&w=3274&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-size: cover;
+    color: #82a5ca;
     text-align: center;
+    margin: 0;
 }
 
 .btn {
@@ -10,14 +14,29 @@ body {
     border-radius: 2px;
     padding: 6px 12px;
     background-color: rgb(249, 251, 253);
-    font-family: 'Orbitron';
+    font-family: 'Transformers';
+    color: #82a5ca;
 
 }
-
 
 body {
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+}
+
+.underline {
+    border-bottom: 4px solid white;
+}
+
+#main-logo {
+    width: 100px;
+}
+
+#hero {
+    background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzVmNWdncmIxcmUwYmxkc2ZqenhscGE2NnU5NGV0bTRhNmx3cTFpeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iicDrNGWxHmDrIni6j/giphy.gif");
+    background-size: cover;
+    padding: 10px 0 400px 0;
+    text-shadow: 0px 0px 4px black;
 }
