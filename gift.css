@@ -17,12 +17,29 @@ h1, h2, h3, h4, p  {
     text-shadow: 0 0 1px black;
 }
 
-h2, h4 {
+#bday-age {
     background: #EFB0C9;
+    padding: 5px 10px; 
+    border-radius: 5px;  
+    margin: 5px 0 10px 0;
+}
+
+
+#bday-date  {
+    margin-top: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 #header {
     display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.gift-img {
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
 }
