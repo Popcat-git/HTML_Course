@@ -9,6 +9,8 @@ body {
 img {
     width: 100px;
     text-align: center;
+    border: solid 2px white;
+    border-radius: 50%;
 }
 
 .hero {
@@ -58,20 +60,25 @@ img {
     font-size: large;
 }
 
-.hero:hover {
-    font-size: large;
-}
-
 .popcat {
     padding: 20px;
+    border: solid 2px white;
+
 }
 
 .fee {
     padding: 20px;
+    border: solid 2px white;
+
 }
 
 #man {
     margin: 0 auto;
     width: 200px;
+}
+
+.tree {
+    padding: 20px;
+    border: solid 2px white;
 }
 
