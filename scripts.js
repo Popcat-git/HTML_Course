@@ -7,11 +7,23 @@ pizzaCatButton.addEventListener("click", pizzaCatButtonClicked);
 function pizzaCatButtonClicked() {
     console.log("Add a pizza cat");
 
-    let pizzaCatImage = document.createElement("img");
+    let howManyCats = prompt("How many cats do you want?");
 
-    pizzaCatImage.src = "pizza-cat.webp";
+    let howManyCatsNumber = Number(howManyCats);
 
-    document.body.appendChild(pizzaCatImage);
+    console.log("User asked for " + howManyCatsNumber)
+
+   for (let i = 0; i < howManyCatsNumber; i++) {
+        console.log("Running");
+
+        let pizzaCatImage = document.createElement("img");
+
+        pizzaCatImage.src = "pizza-cat.webp";
+
+        document.body.appendChild(pizzaCatImage);
+    }
+
+  
 }
 
 let vibeCatButton = document.getElementById("vibe-cat-button");
@@ -21,9 +33,19 @@ vibeCatButton.addEventListener("click", vibeCatButtonClicked);
 function vibeCatButtonClicked() {
     console.log("Hey vibe button clicked");
 
-    let vibeCatImage = document.createElement("img");
+    let howManyCats = prompt("How many cats do you want?");
 
-    vibeCatImage.src = "vibe-cat.gif";
+    let howManyCatsNumber = Number(howManyCats);
 
-    document.body.appendChild(vibeCatImage);
+    console.log("User asked for " + howManyCatsNumber)
+
+   for (let i = 0; i < howManyCatsNumber; i++) {
+       console.log("Running");
+
+       let vibeCatImage = document.createElement("img");
+
+       vibeCatImage.src = "vibe-cat.gif";
+
+       document.body.appendChild(vibeCatImage);
+        }
 }
